@@ -1,0 +1,22 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-size: 40px; 
+  line-height: 64px; 
+  display:inline-block;
+  margin-right: 1vw
+}
+
+#content { 
+    text-align: left; 
+}
+html { 
+    position: relative; 
+    min-height: 100%; 
+    height: 100%; 
+}
