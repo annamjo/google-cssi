@@ -11,6 +11,9 @@ https://posenet-testing.glitch.me/
 # Dynamic Dot Game
 https://dynamic-dot-game.glitch.me/
 
+# Pong
+https://pong-cssi-game.glitch.me/
+
 # Flip and Paint
 https://hsb-flip-colors.glitch.me/
 
@@ -25,9 +28,6 @@ https://flying-darts-game.glitch.me/
 
 # Fruit Ninja
 https://clickable-fruit-ninja.glitch.me/
-
-# Pong
-https://pong-cssi-game.glitch.me/
 
 # Snake Game
 https://snake-n-tail.glitch.me/
