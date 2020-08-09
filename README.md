@@ -12,7 +12,7 @@ https://posenet-testing.glitch.me/
 https://dynamic-dot-game.glitch.me/
 
 # Pong
-https://pong-cssi-game.glitch.me/
+https://rainbow-pong.glitch.me/
 
 # Flip and Paint
 https://hsb-flip-colors.glitch.me/
