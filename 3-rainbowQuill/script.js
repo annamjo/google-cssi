@@ -19,7 +19,7 @@ function setup() {
   
   background(95); 
   //background isn't constantly being redrawn anymore, so previously drawn squares show up
-  text("click and hold to start drawing. press the spacebar to clear", 20, 20);
+  text("press and hold to start drawing. press the spacebar to clear", 20, 20);
 }
 
 function draw() { //always runs in a loop automatically

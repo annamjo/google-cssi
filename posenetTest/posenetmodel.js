@@ -43,21 +43,25 @@ function draw() {
     //check dist fr cam by calc how far apart eyes are
     let eyeR = pose.rightEye;
     let eyeL = pose.leftEye;
-    let d = dist(eyeR.x, eyeR.y, eyeL.x, eyeL.y);
-    
-    fill(255, 0, 0);
-    ellipse(pose.nose.x, pose.nose.y, d); //64, d smaller/larger based on how close
-    fill(0,0,255);
+    let d = dist(eyeR.x, eyeR.y, eyeL.x, eyeL.y)/2;
+    noStroke();
+    // fill(0,0,255);
+    fill("#89cff0");
     ellipse(pose.rightWrist.x, pose.rightWrist.y, 64);
     ellipse(pose.leftWrist.x, pose.leftWrist.y, 64);
     //can loop all keypts (arr.len = 17)
     for (let i = 0; i < pose.keypoints.length; i++) {
       let x = pose.keypoints[i].position.x;
       let y = pose.keypoints[i].position.y
-      fill(0, 255, 0);
-      ellipse(x, y, 16, 16);
+      // fill(0, 255, 0);
+      fill("#a5f7bb");
+      ellipse(x, y, 18, 18);
     }
     
+    // fill(255, 0, 0);
+    fill("#ff6961");
+    ellipse(pose.nose.x, pose.nose.y, d); //64, d smaller/larger based on how close
+
     for (let i = 0; i < skeleton.length; i++) {
       let a = skeleton[i][0];
       let b = skeleton[i][1];

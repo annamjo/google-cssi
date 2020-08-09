@@ -152,7 +152,7 @@ class Apple {
     // this.x = random(width - 10);
     //this.y = random(height - 10);
     this.y = Math.floor(random(height/ 10 - 1)) * 10; 
-    this.color = color(random(0, 100), 80, 80); // color(0, 80, 80)
+    this.color = color(random(0, 360), 80, 80); // color(0, 80, 80)
   }
 
   showSelf() {

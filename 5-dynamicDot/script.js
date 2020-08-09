@@ -35,11 +35,15 @@ function setup() {
 
 function draw() {
   background(backgroundColor);
-  fill("yellow");
+  noStroke();
+  // fill("yellow");
+  fill("#ff971a")
   ellipse(coinX, coinY, 20);
-  fill("blue");
+  // fill("blue");
+  fill("#a45ee5")
   ellipse(mouseX, mouseY, 20);
-  fill("black");
+  // fill("black");
+  fill("#710193")
   text(`Time remaining: ${time}`, 20, 40);
   handleTime();
   handleCollision();
@@ -56,7 +60,8 @@ function draw() {
   if (!gameIsOver) {
     moveCoin();
   }
-  fill("Black");
+  // fill("Black");
+  fill("#710193")
   text(`Score: ${score}`, 20, 60);
   text(`Highest Score: ${highScore}`, 20, 80);
   handleGameOver();
@@ -83,6 +88,7 @@ function keyPressed() {
 
 function handleGameOver() {
   if (gameIsOver) {
+    fill("#710193")
     text(`Game Over`, width / 2 - 40, height / 2);
     text(`Your score was ${score}`, width / 2 - 55, height / 2 + 20);
     text(
@@ -206,11 +212,16 @@ function redCoin() {
   // initialize position
   this.posX = random(width);
   this.posY = random(height);
-  this.radius = rad;
+  this.radius = 25;
 
   this.display = function() {
-    fill("Red");
+    // fill("Red");
+    fill("#ff6961")
     ellipse(this.posX, this.posY, this.radius);
+    // fill("#ffdf9e")
+    fill('#ffdf77')
+    // textAlign(CENTER, CENTER);
+    text("-3", this.posX-6, this.posY+3);
   };
 
   this.remove = function(index) {
