@@ -5,14 +5,14 @@ Projects created throughout Google CSSI's 4-week curriculum on JavaScript, Proce
 # Seasonal Animations
 https://seasonal-animations.glitch.me/
 
-# Keypoint Tracker
-https://posenet-testing.glitch.me/
-
 # Dynamic Dot Game
 https://dynamic-dot-game.glitch.me/
 
 # Pong
 https://rainbow-pong.glitch.me/
+
+# Pose Estimation
+https://posenet-testing.glitch.me/
 
 # Flip and Paint
 https://hsb-flip-colors.glitch.me/
